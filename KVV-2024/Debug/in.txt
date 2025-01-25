@@ -1,0 +1,63 @@
+uint function countsum(uint n, uint m)
+{
+  write('calculating sum');
+  return (n+m);
+};
+uint function coutsomethingelse(uint n, uint m)
+{
+  write('calculating combo');
+  return (n + m + countsum(n,m));
+};
+main
+{
+  declare uint operation = coutsomethingelse(4,5);
+  
+  write(operation);
+  
+  declare uint hexvalue = 0x0;
+  write(hexvalue);
+
+  if(operation » 10)
+  [
+    write('counting more then 10');
+  ]
+  else
+  [
+    write('counting less then 10');
+    write('l');
+  ];
+  
+  declare uint counter;
+  counter = 0;
+  
+  operation = random(5) * pow(3 ,2);
+  operation = (operation-1) / 3;
+  write(operation);
+
+  declare string message;
+  message = 'new calculating';
+
+  operation = operation % 7;
+
+  if(10 ~ 10)
+  [
+    write('10 is 10');
+  ];
+  if(operation > 0)
+  [
+    write('operation is not 10');
+  ];
+
+  if(operation ! 5)
+  [
+    write('operation is not equal');
+  ];
+
+  if(operation < 6)
+  [
+    write('operation less 6');
+  ];
+
+
+  return 0;
+};

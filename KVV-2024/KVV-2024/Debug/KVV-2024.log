@@ -1,0 +1,66 @@
+﻿Сборка начата 17.12.2024 12:37:40.
+Уровень детализации журнала: Normal.     1>Проект "E:\KVV\KVV-2024\KVV-2024\KVV-2024.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\KVV-2024.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\KVV-2024.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Error.cpp FST.cpp Generator.cpp Greibach.cpp IT.cpp In.cpp "KVV-2024.cpp" LT.cpp Lexer.cpp Log.cpp MFST.cpp Parm.cpp PolishNotation.cpp SematicAn.cpp pch.cpp
+         Error.cpp
+         FST.cpp
+         Generator.cpp
+     1>E:\KVV\KVV-2024\KVV-2024\Generator.cpp(12,7): warning C4101: gen_ok: неиспользованная локальная переменная
+         Greibach.cpp
+         IT.cpp
+         In.cpp
+         KVV-2024.cpp
+         LT.cpp
+         Lexer.cpp
+     1>E:\KVV\KVV-2024\KVV-2024\Lexer.cpp(109,41): warning C4018: <: несоответствие типов со знаком и без знака
+     1>E:\KVV\KVV-2024\KVV-2024\Lexer.cpp(119,69): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+         Log.cpp
+         MFST.cpp
+         Parm.cpp
+         PolishNotation.cpp
+         SematicAn.cpp
+         pch.cpp
+         Создание кода...
+     1>E:\KVV\KVV-2024\KVV-2024\PolishNotation.cpp(22,1): warning C4715: PN::Priorities: значение возвращается не при всех путях выполнения
+     1>E:\KVV\KVV-2024\KVV-2024\Generator.cpp(310,1): warning C4715: Gener::DetectType: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\KVV\KVV-2024\Debug\KVV-2024.exe" /INCREMENTAL /ILK:"Debug\KVV-2024.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\KVV\KVV-2024\Debug\KVV-2024.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\KVV\KVV-2024\Debug\KVV-2024.lib" /MACHINE:X86 Debug\Error.obj
+         Debug\FST.obj
+         Debug\Generator.obj
+         Debug\Greibach.obj
+         Debug\In.obj
+         Debug\IT.obj
+         "Debug\KVV-2024.obj"
+         Debug\Lexer.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\pch.obj
+         Debug\PolishNotation.obj
+         Debug\SematicAn.obj
+         KVV-2024.vcxproj -> E:\KVV\KVV-2024\Debug\KVV-2024.exe
+       FinalizeBuildStatus:
+         Файл "Debug\KVV-2024.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\KVV-2024.tlog\KVV-2024.lastbuildstate".
+     1>Сборка проекта "E:\KVV\KVV-2024\KVV-2024\KVV-2024.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "E:\KVV\KVV-2024\KVV-2024\KVV-2024.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         E:\KVV\KVV-2024\KVV-2024\Generator.cpp(12,7): warning C4101: gen_ok: неиспользованная локальная переменная
+         E:\KVV\KVV-2024\KVV-2024\Lexer.cpp(109,41): warning C4018: <: несоответствие типов со знаком и без знака
+         E:\KVV\KVV-2024\KVV-2024\Lexer.cpp(119,69): warning C4267: =: преобразование из "size_t" в "char"; возможна потеря данных
+         E:\KVV\KVV-2024\KVV-2024\PolishNotation.cpp(22,1): warning C4715: PN::Priorities: значение возвращается не при всех путях выполнения
+         E:\KVV\KVV-2024\KVV-2024\Generator.cpp(310,1): warning C4715: Gener::DetectType: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 5
+    Ошибок: 0
+
+Прошло времени 00:00:07.81
